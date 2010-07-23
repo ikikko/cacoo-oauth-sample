@@ -18,14 +18,20 @@
 			</plugin>
 		</plugins>
 	</build>
+
 	<repositories>
+
+        <!-- net.oauth -->
 		<repository>
 			<id>oauth</id>
 			<url>http://oauth.googlecode.com/svn/code/maven</url>
 		</repository>
+
 	</repositories>
 
 	<dependencies>
+
+        <!-- net.oauth -->
 		<dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
@@ -55,6 +61,14 @@
             <version>20090913</version>
         </dependency>
         -->
+
+        <!-- oauth-signpost -->
+		<dependency>
+			<groupId>oauth.signpost</groupId>
+			<artifactId>signpost-core</artifactId>
+			<version>1.2.1.1</version>
+		</dependency>
+
 	</dependencies>
 
 </project>
