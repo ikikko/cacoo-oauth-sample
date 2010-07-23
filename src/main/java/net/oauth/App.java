@@ -1,4 +1,4 @@
-package oauth;
+package net.oauth;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

@@ -1,4 +1,4 @@
-package oauth;
+package net.oauth;
 
 import static net.oauth.ParameterStyle.*;
 
